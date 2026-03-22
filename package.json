@@ -1,0 +1,13 @@
+{
+  "name": "hackmatch",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @hackmatch/web",
+    "build": "npm run build -w @hackmatch/web",
+    "preview": "npm run preview -w @hackmatch/web"
+  }
+}
