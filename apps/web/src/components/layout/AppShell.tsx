@@ -7,7 +7,7 @@ export function AppShell() {
   return (
     <div className="min-h-[100dvh] flex flex-col bg-bg-primary">
       <Header />
-      <main className="flex-1 pt-16 pb-20 overflow-hidden">
+      <main className="flex-1 pt-16 pb-20 overflow-y-auto">
         <div className="max-w-lg mx-auto h-full px-4">
           <Outlet />
         </div>

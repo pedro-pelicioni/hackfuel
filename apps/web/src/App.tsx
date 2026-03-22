@@ -10,6 +10,7 @@ import { MatchList } from '@/components/profile/MatchList'
 import { VotingPage } from '@/components/voting/VotingPage'
 import { ProfilePage } from '@/components/profile/ProfilePage'
 import { RegisterProject } from '@/components/register/RegisterProject'
+import { AskAI } from '@/components/ask/AskAI'
 
 const queryClient = new QueryClient()
 
@@ -30,6 +31,7 @@ export default function App() {
               <Route index element={<SwipeContainer />} />
               <Route path="matches" element={<MatchList />} />
               <Route path="register" element={<RegisterProject />} />
+              <Route path="ask" element={<AskAI />} />
               <Route path="vote" element={<VotingPage />} />
               <Route path="profile" element={<ProfilePage />} />
             </Route>
